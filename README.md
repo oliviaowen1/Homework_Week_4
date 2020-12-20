@@ -36,7 +36,7 @@ If no characters are chosen, this will alert the user that no characters have be
 
 When the minimum criteria has been met (an amount of characters within the limits have been selected and at least one character type have been chosen), the generator will provide a code at random to match the criteria selected. The below password is 9 characters, that include lowercase, uppercase, numbers and symbols:
 
-![password provided](https://raw.githubusercontent.com/oliviaowen1/Random_Password_Generator/main/Assets/(4)Screenshot%20no%20characters%20selected.png)
+![password provided](https://raw.githubusercontent.com/oliviaowen1/Random_Password_Generator/main/Assets/(5)Screenshot%20password.png)
 
 You can click "Generate Password" at any point to get a new password. 
 
