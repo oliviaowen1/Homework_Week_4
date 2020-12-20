@@ -15,6 +15,8 @@ For this project my aim was to make a random password generator that asks the us
 ## Installation
 In order to use this application, you will need to open it in the browser. You will then need to click the "Generate Password" button. You will then be presented with a series of options, starting with how long you would like your password to be, this will then be followed by asking which characters you would like included in the password. After you have selected all of these, you will be provided with a password that has matched your criteria. If you do not select any/enough features you will be asked to start again and you must begin again with the "Generate Password" button.
 
+You can find the application here:  https://oliviaowen1.github.io/Random_Password_Generator/.
+
 ## Features
 When starting the application, it will begin at the click of the "Generate Password" button. At this point you will be presented with a prompt, asking how many characters you would like your password to be. As you can see below:
 
@@ -36,8 +38,10 @@ When the minimum criteria has been met (an amount of characters within the limit
 
 ![password provided](https://raw.githubusercontent.com/oliviaowen1/Random_Password_Generator/main/Assets/(4)Screenshot%20no%20characters%20selected.png)
 
+You can click "Generate Password" at any point to get a new password. 
+
 ## Improvements
--
+If i were to complete this task again, or be provided with more time to do so, i would add a while loop that immediately provides the user with the opportunity to select the correct criteria, saving them pressing the button again. However when trying to do this, i found myself repeating lines of code. 
 
 ## License
                     GNU GENERAL PUBLIC LICENSE
