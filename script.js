@@ -89,11 +89,19 @@ function generatePassword() {
   // This variable is used when the below for loop needs to find the array length.
   var password = [];
 
-  // Start random selection variables:
-  // Random selection for all variables: 
+  // The below loop will keep adding 1 character until it meets the characters specified by the user.
+  // It will then select random choices from the arrays and as this has used the concat method it will add all of the strings together.
   for (var i = 0; i < pwdLength; i++) {
-      var pickChoices = choices[Math.floor(Math.random() * choices.length)];
-      password.push(pickChoices);
+    var randomChoices = choices[Math.floor(Math.random() * choices.length)];
+    password.push(randomChoices);
   }
-  
+  // The use of '.join()' is to make the arrays join and show as a string. As without this it means they show with commas between them.
+  var showPW = password.join("");
+  showPassword(showPW);
+  // Return password makes the password we have generated show in the box on our webpage.
+  return password;
+}
+// This function asks for the password to be shown as text content rather than elements.
+function showPassword(showPW) {
+  document.getElementById("password").textContent = showPW;
 }
