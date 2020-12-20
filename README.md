@@ -24,11 +24,11 @@ When starting the application, it will begin at the click of the "Generate Passw
 
  This must be within 8 and 128 characters, if not then you will be presented with an error message, as seen below:
 
-![Characters error message](https://raw.githubusercontent.com/oliviaowen1/Random_Password_Generator/main/Assets/(3)Screenshot%20second%20option.png)
+![Characters error message](https://raw.githubusercontent.com/oliviaowen1/Random_Password_Generator/main/Assets/(2)Screenshot%20answer%20not%20within%20characters.png)
 
 After this you will be asked a series of questions, in the form of alerts, that will help to determine which character types you want within your password. The alerts work by taking the answer 'OK' and yes and the answer 'Cancel' as no. This then allows us to determine which characters should appear within the password based on the users selections. You can see an example of the first question below:
 
-![alert first question](https://raw.githubusercontent.com/oliviaowen1/Random_Password_Generator/main/Assets/(2)Screenshot%20answer%20not%20within%20characters.png)
+![alert first question](https://raw.githubusercontent.com/oliviaowen1/Random_Password_Generator/main/Assets/(3)Screenshot%20second%20option.png)
 
 If no characters are chosen, this will alert the user that no characters have been selected, this will then alert them and they will be asked to start the generator again. This can be seen here:
 
