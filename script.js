@@ -98,8 +98,8 @@ function generatePassword() {
   // The use of '.join()' is to make the arrays join and show as a string. As without this it means they show with commas between them.
   var showPW = password.join("");
   showPassword(showPW);
-  // Return password makes the password we have generated show in the box on our webpage.
-  return password;
+  // Return showPW makes the password we have generated show in the box on our webpage, but as we have ammended this to make it the variable showPW this joins the arrays and removes spacing.
+  return showPW;
 }
 // This function asks for the password to be shown as text content rather than elements.
 function showPassword(showPW) {
